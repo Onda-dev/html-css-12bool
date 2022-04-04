@@ -1,0 +1,57 @@
+/*----------------
+    DEBUG
+-----------------*/
+[class*=col-] {
+    /* min-height: 100px; */
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
+
+/*----------------
+    TYPOGRAPHY
+-----------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*----------------
+    BUTTONS
+-----------------*/
+button {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.header-icon {
+    font-size: 2em;
+}
+
+/*----------------
+    HEADER
+-----------------*/
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+header [class*=col-]{
+    padding: 40px 0;
+    
+}
+
+header .col-1 {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-box img {
+    max-width: 220px;
+}
