@@ -2,9 +2,9 @@
     DEBUG
 -----------------*/
 [class*=col-] {
-    /* min-height: 100px; */
-    /* background-color: lightskyblue;
-    border: 1px solid black; */
+    min-height: 100px;
+    /* background-color: lightskyblue; */
+    /* border: 1px solid black; */
 }
 
 /*----------------
@@ -12,6 +12,23 @@
 -----------------*/
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-box h4 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.brand-name {
+    color: grey;
+    font-weight: 300;
+    font-size: 0.8em;
 }
 
 /*----------------
@@ -35,7 +52,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 10;
-    background-color: rgba(0, 0, 0, 1)
+    background-color: rgba(0, 0, 0, 0)
 }
 
 header [class*=col-]{
@@ -63,4 +80,32 @@ header .col-1 {
     background-image: url(../img/hero.jpg);
     background-position: center;
     background-size: cover;
+}
+
+/*----------------
+    MAIN
+-----------------*/
+/* PRODUCT GRID */
+.product-grid {
+    margin: 80px 0;
+}
+
+.product-box {
+    width: 90%;
+    margin: auto;
+}
+
+.product-box img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-text-box {
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.product-grid .row {
+    margin: 20px 0;
 }
