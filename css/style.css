@@ -1,0 +1,14 @@
+.container {
+    margin-bottom: 30px;
+}
+
+[class*="col-"] {
+    min-height: 50px;
+    background-color: lightgreen;
+    border: 1px solid coral;
+    padding: 10px;
+}
+
+.nested {
+    background-color: lightskyblue;
+}
