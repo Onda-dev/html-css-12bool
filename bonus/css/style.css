@@ -15,6 +15,10 @@ img {
     display: block;
 }
 
+hr {
+    color: lightgray;
+}
+
 /*----------------
     TYPOGRAPHY
 -----------------*/
@@ -70,6 +74,11 @@ button {
     font-size: 2em;
 }
 
+.blog-button {
+    border: 1px solid lightgray;
+    color: rgb(92, 92, 92);
+    padding: 6px 20px;
+}
 /*----------------
     HEADER
 -----------------*/
@@ -131,6 +140,10 @@ header .col-1 {
 }
 
 /* BLOG */
+.blog {
+    margin-bottom: 120px;
+}
+
  .blog .row {
      margin: 30px 0;
  }
@@ -145,3 +158,12 @@ header .col-1 {
      text-align: center;
      line-height: 2em;
  }
+
+/*----------------
+    FOOTER
+-----------------*/
+footer {
+    text-align: center;
+    margin: 40px 0;
+    color: grey
+}
