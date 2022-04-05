@@ -118,8 +118,8 @@ header .col-l-1 {
 }
 
 .hero {
-    min-height: 500px;
-    background-image: url(../img/hero.jpg);
+    min-height: 700px;
+    background-image: url(../img/hero2.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -175,3 +175,4 @@ footer {
     margin: 40px 0;
     color: grey
 }
+
