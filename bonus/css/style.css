@@ -176,3 +176,25 @@ footer {
     color: grey
 }
 
+/*----------------
+    RESPONSIVE
+-----------------*/
+/* SMALL */
+@media screen and (max-width: 800px) {
+    
+    .col-l-1.offset-l-1.col-m-1.offset-m-1 .user-icon {
+        display: none;
+    }
+
+    .product-box h4 {
+        font-size: 2.6em;
+    }
+
+    .product-box .brand-name, .product-box .product-price {
+        font-size: 1.5em;
+    }
+
+    .product-text-box {
+        line-height: 2.2em;
+    }
+}
