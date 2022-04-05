@@ -74,6 +74,10 @@ button {
     font-size: 2em;
 }
 
+header button {
+    color: black;
+}
+
 .blog-button {
     border: 1px solid lightgray;
     color: rgb(92, 92, 92);
@@ -86,15 +90,19 @@ header {
     position: fixed;
     width: 100%;
     z-index: 10;
-    background-color: rgba(255, 255, 255, 0)
+    background-color: rgba(255, 255, 255, 1);
 }
 
-header [class*=col-]{
-    padding: 30px 0;
-    
+header .col-l-2, header .col-l-8{
+    display: flex;
+    align-items: center;
 }
 
-header .col-1 {
+header .col-l-8 {
+    justify-content: center;
+}
+
+header .col-l-1 {
     text-align: right;
     display: flex;
     justify-content: space-between;
